@@ -1,0 +1,682 @@
+*{ box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+body {
+    width: 100%;
+    height:100%;
+    margin:0;
+    padding: 0;
+    background-color: #FFF;
+    display:block;
+    overflow: auto;
+}
+
+/** DEFINIR AS PROPIEDADES DO MAIN PAGINA CONTATO**/
+.main-contato{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: stretch;
+}
+/** DEFINIR AS PROPIEDADES E ROSPONSIVIDADE DO TOPO E LOGO**/
+
+    .topo{
+        width:100%;
+        height: 150px;
+        display:flex;
+        flex-direction: row;
+        justify-content:space-between; 
+        background-color: #192947;
+        padding: 0;
+        
+        
+    }
+
+
+    .logo {
+        display:flex;
+        margin-left: 40px;
+        align-items: center;
+    
+
+    }
+    .topo .logo a{
+        display:flex;
+        width: 400px;
+        height: 500px;
+    }
+
+    .topo .logo img{
+      width:350px;
+    }
+
+
+
+
+
+/** DEFINIR AS PROPIEDADES DO MENU**/
+
+nav {
+    
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    right: 30px; 
+    bottom:0px;
+}
+
+nav ul li{
+    float: left;
+    color:#fff;
+    width:auto;
+    height:auto;
+    margin: 20px 50px 20px 30px;
+    font-size: 20px;
+    list-style: none;
+    font-family: Arial sans-serif, Helvetica;
+}
+
+
+nav ul li a {
+
+    text-decoration:none; 
+    color:#FFF;
+}
+
+nav ul li a:hover{
+    
+    color:#4AC0E7;
+}
+
+
+/** DEFINIR AS PROPIEDADES DO BANNER**/
+
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 100%;
+  
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
+
+/** DEFINIR AS PROPIEDADES DO MAIN**/
+
+.main{
+    margin: auto;
+    width:90%;
+    height:auto;
+    background-color: #FFF;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    
+
+    }
+
+/** DEFINIR AS PROPIEDADES DO INSTITUCIONAL**/
+.containder-1{
+    display:flex;
+    width: 100%;
+    margin-top: 40px;
+            
+}
+.inst{
+    display:flex;
+    width: 100%;
+    height: 300px;
+    margin-bottom: 10px;
+    justify-content: center;
+    align-items: flex-start;
+    justify-content: center;
+    align-content: space-around;  
+    box-sizing: border-box; 
+
+}
+
+.inst .img-frente{
+    max-width: 600px;
+    height:400px;
+    margin-right: 40px;
+    
+}
+
+.inst .img-frente img{
+    width:100%;
+    
+}
+
+.containder-1 .inst .text-inst{
+    max-width:600px;
+    max-height:400px;
+    justify-content:flex-start;
+    font-family: Arial sans-serif, Helvetica;
+    color:#515050;
+    text-align: justify;
+    line-height: 30px;
+    align-content: center;
+            
+}
+
+.containder-1 .inst .text-inst2 {
+    width:100%;
+    word-wrap: break-word;
+                      
+}
+
+
+
+/** DEFINIR PROPIEDADES DO Missao valores**/
+
+.containder-2{
+    display:flex;
+    width: 100%;
+    max-height: 400px;
+    margin-top:50px;
+    
+    box-sizing: border-box;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center; 
+    
+}
+    
+.containder-2 .box-1{
+        max-width:600px;
+        max-height:200px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        display: flex;
+        align-items:center;
+        
+}
+
+.containder-2 .box-1 .img-ico img{
+    width: 120px;
+    height:120px;
+    margin:auto;
+    align-content: center;
+}
+
+.containder-2 .box-1 .text-inst{
+    justify-content:center;
+    font-family: Arial sans-serif, Helvetica;
+    color:#515050;
+    text-align: justify;
+   
+            
+}
+/** DEFINIR PROPIEDADES DO Containder 3**/
+
+.containder-3{
+  width: 100%;
+  display:flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items:center;
+
+}
+
+.containder-3 img{
+  margin:20px;
+}
+
+
+.box-3{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.box-3 a:hover img{
+  border:2px solid #4AC0E7;
+}
+
+@media only screen and (max-width: 1200px) {
+/** DEFINIR PROPIEDADES DO Missao valores**/
+
+.containder-2{
+  display:flex;
+  width: 100%;
+  max-height: 400px;
+  margin-top:50px;
+  
+  box-sizing: border-box;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center; 
+  
+  
+}
+
+
+
+  
+.containder-2 .box-1{
+      max-width:50%;
+      max-height:200px;
+      margin-right: 20px;
+      margin-bottom: 20px;
+      display: flex;
+      align-items:center;
+      
+}
+
+
+.containder-2 .box-1 .img-ico img{
+  width: 120px;
+  height:120px;
+  margin:auto;
+  align-content: center;
+}
+
+.containder-2 .box-1 .text-inst{
+  justify-content:center;
+  font-family: Arial sans-serif, Helvetica;
+  color:#515050;
+  text-align: justify;
+ 
+          
+}
+/** DEFINIR PROPIEDADES DO Containder 3**/
+
+.containder-3{
+width: 100%;
+display:flex;
+flex-direction: column;
+align-content: center;
+justify-content: center;
+align-items:center;
+
+}
+
+.containder-3 img{
+max-width:90%;
+margin:20px;
+}
+
+
+.box-3{
+max-width:100%;
+display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
+align-content: center;
+justify-content: center;
+align-items: center;
+
+}
+
+.box-3 a:hover img{
+border:2px solid #4AC0E7;
+}
+
+
+/** DEFINIR PROPIEDADES DO SOBRE**/
+}
+
+.sobre{
+  width:100%;
+  margin-top: 40px;
+  display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  align-items: center;
+  justify-content:center;
+}
+
+.sobre .sobre-box1{
+  max-width:50%;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  box-sizing: border-box;
+ 
+}
+
+.sobre .sobre-box12{
+  max-width:50%;
+  height: 428px;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  box-sizing: border-box;
+  justify-content:flex-start;
+  font-family: Arial sans-serif, Helvetica;
+  color:#515050;
+  text-align: justify;
+  object-fit: scale-down;
+  line-height: 30px;
+  object-fit:contain;
+
+}
+
+.sobre .sobre-box1 img{
+  max-width:100%;
+  margin:10px;
+  object-fit: contain;
+}
+
+.sobre .sobre-box12 h1{
+  
+  margin-bottom:10px;
+
+}
+
+.sobre .sobre-box12 p{
+  max-width:600px;
+  margin:10px;
+
+}
+
+.sobre .sobre-box{
+  max-width:48%;
+  display:flex;
+  justify-content:center;
+  object-fit: contain;
+}
+
+.sobre .sobre-box img{
+  max-width:100%;
+  margin:10px;
+  object-fit:contain;
+}
+
+
+
+.banner-sobre{
+  width:100%;
+  margin-top:20px;
+  max-height: 350px;
+  display: block;
+}
+
+.banner-sobre img{
+  width: 100%;
+  height: 350px;
+}
+
+
+.containder-sobre{
+  width:100%;
+  margin-top: 20px;
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+.containder-sobre .ofer {
+  width:1260px;
+  object-fit: contain;
+  display:flex;
+
+}
+
+.ofer img{
+  width:100%;
+  margin: auto;
+ 
+}
+
+
+.ico-sobre{
+  width: 40%;
+  margin-top:20px;
+  margin-bottom: 20px;
+
+  display: flex;
+  align-items:center;
+  justify-content: flex-end;
+  
+}
+
+.containder-sobre .ico-sobre .ico-txt{
+  width:50%;
+  justify-content:center;
+  font-family: Arial sans-serif, Helvetica;
+  color:#515050;
+  text-align: justify;
+  margin-left: 10px;
+}
+
+.fotos-sobre{
+  width: 100%;
+
+  display:flex;
+  justify-content: center;
+}
+
+.fotos-sobre img{
+  width:560px;
+  max-width: 50%;
+  margin-top: 20px;
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+
+
+
+/** DEFINIR PROPIEDADES DO RODAPE**/
+
+.rodape{
+    width:100%;
+    height: 300px;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    background-color:#192947;
+    border-radius: 2px;
+
+}
+.rodape img{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.rodape p{
+    color: #FFF;
+    font-family: Arial sans-serif, Helvetica;
+    font-size: 18px;
+    text-align: center;
+}
+
+/** SEGUNDO BANNER**/
+
+/* Slideshow container */
+.slideshow-Container {
+    max-width:1200px;
+    position: relative;
+    margin:auto;
+    margin-bottom:10px;
+  }
+  
+  /* Make the images invisible by default */
+  .Containers {
+    display: none;
+    
+  }
+  
+  /* forward & Back buttons */
+  .Back, .forward {
+    cursor: pointer;
+    position: absolute;
+    top: 48%;
+    width: auto;
+    margin-top: -23px;
+    padding: 17px;
+    color: grey;
+    font-weight: bold;
+    font-size: 19px;
+    transition: 0.4s ease;
+    border-radius: 0 5px 5px 0;
+    user-select: none;
+  }
+  
+  /* Place the "forward button" to the right */
+  .forward {
+    right: 0;
+    border-radius: 4px 0 0 4px;
+  }
+  
+  /*when the user hovers,add a black background with some little opacity */
+  .Back:hover, .forward:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  /* Caption Info */
+  .Info {
+    color: #e3e3e3;
+    font-size: 16px;
+    padding: 10px 14px;
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Worknumbering (1/3 etc) */
+  .MessageInfo {
+    color: #f2f2f3;
+    font-size: 14px;
+    padding: 10px 14px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The circles or bullets and indicators */
+  .dots {
+    cursor: pointer;
+    height: 16px;
+    width: 16px;
+    margin: 0 3px;
+    background-color: #acc;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.5s ease;
+  }
+  
+  .enable, .dots:hover {
+    background-color: #717161;
+  }
+  
+  /* Faint animation */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.4s;
+    animation-name: fade;
+    animation-duration: 1.4s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .5}
+    to {opacity: 2}
+  }
+  
+  @keyframes fade {
+    from {opacity: .5}
+    to {opacity: 2}
+  }
+
